@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.lis:link{
+    color: white;
+}
+
+.lis:link:hover{
+    color:black;
+    background-color: white;
+}
+
+.lis:visited{
+    color: white;
+}
+.lis:visited:hover{
+    color:black;
+    background-color: white;
+}
+li{
+    margin-left:10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.logo__1{
+    width: 75px;
+    height: 75px;
+    margin-left: 25px;
+}
+
+.dropdown-menu{
+    background-color: lightgray;
+}
+
+.body__inicio{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/216/137/original/continuous-line-drawing-of-young-strong-weightlifter-woman-preparing-for-barbell-workout-in-gym-isolated-on-white-background-weight-lifting-training-concept-character-lady-working-out-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin-top:25px ;
+}
+
+#bienve{
+    display: flex;
+    justify-content:center;
+    margin-top: 25px;
+    font-size: 75px;
+}
+
+.footer{
+    background-color:tomato;
+    height: 217px;
+}
+
+.footer__left{
+    display: inline;
+}
+
+.footer__mid{
+    display: inline;
+    float: center;
+}
+.ul__left{
+    list-style: none;
+    display: inline-block;
+}
+
+.ul__mid{
+    list-style: none;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.logos__footer{
+    width: 30px;
+    height: 30px;
+}
+
+.a__foot:link{
+    color: black;
+    text-decoration: none;
+}
+
+.a__foot:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.footer__right{
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.input__foot{
+    list-style: none;
+    margin: 10px;
+
+}
+
+.input__text{
+    height: 100px;
+    width: 250px;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.intro{
+    width: 800px;
+    display: block;
+    font-size: 25px;
+    margin-left: 280px;
+    text-align:justify;
+    color: black;
+}
+
+.intro__1{
+    margin-top: 25px;
+    background-color: tomato;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.intro__2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: tomato;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.nos__entre{
+    display: flex;
+    justify-content:center;
+    margin-top: 25px;
+    font-size: 75px;
+}
+
+.ent__fun{
+    margin-left: 25px;
+    width: 600px;
+    font-size: 25px;
+}
+
+.img__fun{
+    width: 440px;
+    height: 220;
+}
+
+.ent__str{
+    margin-left: 65%;
+}
+
+.img__str{
+    width: 440px;
+    height: 220;
+}
+
+.ent__pot{
+    margin-left: 25px;
+}
+
+.img__pot{
+    width: 440px;
+    height: 220;
+}
+
+.ent__elo{
+    margin-left: 65%;
+    margin-bottom: 150px;
+}
+
+.img__elo{
+    width: 440px;
+    height: 220;
+}
+
+
+
+
