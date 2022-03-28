@@ -1,0 +1,71 @@
+/*sumate*/
+
+.sum__layout{
+    background-image:url(../imagenes/continuous-line-drawing-of-young-strong-weightlifter-woman-preparing-for-barbell-workout-in-gym-isolated-on-white-background-weight-lifting-training-concept-characte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.tit__sum{
+    display: flex;
+    justify-content:center;
+    font-size: 75px;
+}
+
+.div__tit2{
+    display: flex;
+    justify-content: center;
+}
+
+.tit2__sum{
+    width: 700px;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: tomato;
+    border: 5px solid black;
+    border-radius: 3px;
+    text-align: center;
+    color: black;
+}
+
+.form__sum{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 500px;
+    background-color: tomato;
+    width: 300px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+
+}
+
+.inp__sum{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.inp__sex{
+    margin-left: 10px;
+}
+
+.sed{
+    width: 200px;
+}
+
+.exp{
+    width: 200px;
+    height: 100px;
+}
+
+.map{
+    width: 100%;
+}
+
+#map{
+    width: 100%;
+}

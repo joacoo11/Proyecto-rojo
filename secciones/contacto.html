@@ -39,44 +39,33 @@
           </div>
         </div>
       </nav>
-
-      <h1 class="display-1">Dejanos tu consulta!</h1>
+      <div class="con__layout">
+      <h1 class="h1__cons">Dejanos tu consulta!</h1>
    
-    <div class="formularios__contacto">
-    <form>
-        <input type="text" name="Nombre" placeholder="Nombre">
-    </form>
-    <form>
-        <input type="text" name="Apellido" placeholder="Apellido">
-    </form>
-    <form>
-        <input type="text" name="Edad" placeholder="Edad">
-    </form>
-    <form>
-        <div>Hombre</div>
-        <input type="radio" name="Sexo" value="Hombre">
-        <div>Mujer</div>
-        <input type="radio" name="Sexo" value="Mujer">
-        <div>Otro</div>
-        <input type="radio" name="Sexo" value="Otro">
-    </form>
-    <form>
-        <select name="Sedes">
-            <option value="Parque Sarmiento - Villa urquiza">Parque Sarmiento - Villa urquiza</option>
-            <option value="Plaza Aristobulo del Valle - Villa del Parque">Plaza Aristobulo del Valle - Villa del Parque</option>
-            <option value="Barrancas de Belgrano - Belgrano">Barrancas de Belgrano - Belgrano</option>
-        </select>
-    </form>
-    <form>
-        <input type="text" name="experiencia" placeholder="Contanos tu experiencia de entrenamiento!">
-    </form>
-    <form>
-        <input type="text" name="consulta" placeholder="Que queres saber?">
-    </form>
-    <input type="submit" value="Enviar">
+      <section class="form__con">
+        <form>
+            <input class="inp__con" type="text" name="Nombre" placeholder=" Nombre">
+        </form>
+        <form>
+            <input class="inp__con" type="text" name="Apellido" placeholder=" Apellido">
+        </form>
+        <form>
+            <input class="inp__con" type="email" name="mail" placeholder=" Ingresa tu E-mail!">
+        </form>
+        <form>
+            <input class="inp__con" type="tel" name="tel" placeholder=" Ingresa tu Telefono">
+        </form>
+        <form>
+            <input class="inp__con" id="cons" type="text" name="consulta" placeholder=" Dejanos tu consulta!">
+        </form>
+        <input class="inp__con" type="submit" value="Enviar">
+     </section>
+
     </div>
 
-      <footer class="footer">
+
+
+      <footer class="footer foot__con">
         <section class="footer__left">
           <ul class="ul__left">
             <li>
@@ -113,13 +102,13 @@
         <section class="footer__right">
           <ul class="input__foot">
             <li>
-             <input type="email" placeholder="Ingrese su mail" id="mail">
+             <input class="foot__inp" type="email" placeholder="Ingrese su mail" id="mail">
            </li>
            <li>
-             <input class="input__text" type="text" placeholder="Que querés saber?" >
+             <input class="input__text foot__inp" type="text" placeholder="Que querés saber?" >
            </li>
            <li>
-             <button type="submit">Enviar</button>
+             <button class="foot__inp" type="submit">Enviar</button>
            </li>
            </ul>
         </section>

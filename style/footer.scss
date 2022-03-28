@@ -1,0 +1,61 @@
+/*footer*/
+.footer{
+    background-color:tomato;
+    height: 217px;
+}
+
+.footer__left{
+    display: inline;
+}
+
+.footer__mid{
+    display: inline;
+    float: center;
+}
+.ul__left{
+    list-style: none;
+    display: inline-block;
+}
+
+.ul__mid{
+    list-style: none;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.logos__footer{
+    width: 30px;
+    height: 30px;
+}
+
+.a__foot:link{
+    color: black;
+    text-decoration: none;
+}
+
+.a__foot:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.footer__right{
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.input__foot{
+    list-style: none;
+    margin: 10px;
+
+}
+
+.input__text{
+    height: 100px;
+    width: 250px;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}

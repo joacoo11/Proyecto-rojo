@@ -1,0 +1,37 @@
+/*navbar*/
+.navbar{
+    background-color: black;
+}
+
+.lis:link{
+    color: white;
+}
+
+.lis:link:hover{
+    color:black;
+    background-color: white;
+}
+
+.lis:visited{
+    color: white;
+}
+.lis:visited:hover{
+    color:black;
+    background-color: white;
+}
+li{
+    margin-left:10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.logo__1{
+    width: 75px;
+    height: 75px;
+    margin-left: 25px;
+}
+
+.dropdown-menu{
+    background-color: lightgray;
+}

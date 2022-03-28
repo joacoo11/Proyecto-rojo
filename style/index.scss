@@ -1,0 +1,46 @@
+/*inicio*/
+.body__inicio{
+    background-image:url(../imagenes/continuous-line-drawing-of-young-strong-weightlifter-woman-preparing-for-barbell-workout-in-gym-isolated-on-white-background-weight-lifting-training-concept-characte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin-top:25px ;
+}
+
+#bienve{
+    display: flex;
+    justify-content:center;
+    margin-top: 25px;
+    font-size: 75px;
+}
+
+.intro{
+    width: 800px;
+    display: block;
+    font-size: 25px;
+    margin-left: 280px;
+    text-align:justify;
+    color: black;
+}
+
+.intro__1{
+    margin-top: 25px;
+    background-color: tomato;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.intro__2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: tomato;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
