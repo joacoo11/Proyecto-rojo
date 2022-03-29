@@ -34,13 +34,41 @@
     border: 2px solid red;
     border-radius: 15px;
     padding: 10px;
+    margin-bottom: 100px;
 }
 
-.intro__2{
-    margin-top: 50px;
-    margin-bottom: 100px;
-    background-color: tomato;
-    border: 2px solid red;
-    border-radius: 15px;
-    padding: 10px;
+@media (max-width:576px){
+    .body__inicio{
+        background-image:url(../imagenes/continuous-line-drawing-of-young-strong-weightlifter-woman-preparing-for-barbell-workout-in-gym-isolated-on-white-background-weight-lifting-training-concept-characte.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }   
+
+    #bienve{
+        display: flex;
+        justify-content:center;
+        margin-top: 25px;
+        font-size: 45px;
+    }
+
+    .intro{
+        width: 400px;
+        font-size: 18px;
+        text-align:justify;
+        color: black;
+        margin-left: 0px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 85px;
+    }
+    
+    .intro__1{
+        margin-top: 25px;
+        background-color: tomato;
+        border: 2px solid red;
+        border-radius: 15px;
+        padding: 10px;
+    }
 }

@@ -43,3 +43,43 @@
     margin-top: 10px;
     color: black;
 }
+
+@media (max-width:576px){
+    .jgl__layout{
+        background-image:url(../imagenes/continuous-line-drawing-of-young-strong-weightlifter-woman-preparing-for-barbell-workout-in-gym-isolated-on-white-background-weight-lifting-training-concept-characte.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }   
+    
+    .joa__gar{
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+    }
+
+    .img__jo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    #img__joa{
+        border: 3px red double;
+        border-radius: 52px;
+        width: 350px;
+        height: 300px;
+    }
+
+    .intro__joa{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        background-color: tomato;
+        border: 2px solid red;
+        border-radius: 15px;
+        margin-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 75px;
+    }
+}
