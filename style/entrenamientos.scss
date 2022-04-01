@@ -1,6 +1,6 @@
 /*Entrenamientos*/
 .ent__layout{
-    background-image:url(../imagenes/continuous-line-drawing-of-young-strong-weightlifter-woman-preparing-for-barbell-workout-in-gym-isolated-on-white-background-weight-lifting-training-concept-characte.jpg);
+    background-image:url(../imagenes/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 10px;
@@ -14,45 +14,227 @@
 
 .hr__1{
     border: 13px solid tomato;
+    width: 100%;
     opacity: 100%;
+    margin-left: 0;
 }
 
 .ent__fun{
-    margin-left: 25px;
-    width: 600px;
-    font-size: 25px;
+    display: inline-block;
 }
 
+.h2__fun{
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    border: 5px black solid;
+    border-radius: 7px;
+    width: 284px;
+}
 
 .img__fun{
     width: 440px;
     height: 220;
+    float: left;
+    margin-left: 30px;
+    border: 7px black solid;
+    border-radius: 5px;
+}
+
+.p__fun{
+    margin-top: 30px;
+    width: 580px;
+    font-size: 20px;
+    float: right;
+    margin-left: 210px;
+    display: inline;
+    background-color: tomato;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .ent__str{
-    margin-left: 65%;
+    display: inline-block;
+}
+
+.h2__str{
+    margin-right: 235px;
+    float: right;
+    background-color: black;
+    color: white;
+    border: 5px black solid;
+    border-radius: 7px;
+    width: 284px;
 }
 
 .img__str{
     width: 440px;
     height: 220;
+    float: right;
+    margin-right: 79px;
+    border: 7px black solid;
+    border-radius: 5px;
+    display: inline;
+}
+
+.p__str{
+    width: 580px;
+    font-size: 20px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 210px;
+    margin-top: 70px;
+    background-color: tomato;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .ent__pot{
-    margin-left: 25px;
+    display: inline-block;
+}
+
+.h2__pot{
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    border: 5px black solid;
+    border-radius: 7px;
+    width: 290px;
 }
 
 .img__pot{
     width: 440px;
     height: 220;
+    float: left;
+    margin-left: 30px;
+    border: 7px black solid;
+    border-radius: 5px;
+}
+
+.p__pot{
+    margin-top: 50px;
+    width: 580px;
+    font-size: 20px;
+    float: right;
+    margin-left: 210px;
+    margin-top: 0px;
+    display: inline;
+    background-color: tomato;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .ent__elo{
-    margin-left: 65%;
-    margin-bottom: 150px;
+    display: inline-block;
+}
+
+.h2__elo{
+    margin-right: 388px;
+    float: right;
+    background-color: black;
+    color: white;
+    border: 5px black solid;
+    border-radius: 7px;
+    width: 130px;
 }
 
 .img__elo{
     width: 440px;
     height: 220;
+    float: right;
+    margin-right: 79px;
+    border: 7px black solid;
+    border-radius: 5px;
+    display: inline;
+    margin-bottom: 30px;
+}
+
+.p__elo{
+    width: 580px;
+    font-size: 20px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 210px;
+    margin-top: 70px;
+    background-color: tomato;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+@media (max-width:576px) {
+    .nos__entre{
+        display: flex;
+        justify-content:center;
+        margin-top: 25px;
+        font-size: 45px;
+    }
+
+    .h2__fun{
+        display: flex;
+        justify-content: center;
+        margin-left: 125px;
+    }
+
+    .img__fun{
+        display: flex;
+        justify-content: center;
+        margin-left: 52px;
+    }
+
+    .p__fun{
+        display: block;
+        width:300px;
+        margin-right: 800px;
+        margin-left: 127px;
+    }
+    
+    .h2__str{
+        display: flex;
+        justify-content: center;
+        margin-left: 125px;
+    }
+
+    .img__str{
+        display: flex;
+        justify-content: center;
+        margin-left: 52px;
+    }
+
+    .p__str{
+        display: block;
+        width:300px;
+        margin-right: 800px;
+        margin-left: 127px;
+    }
+z
+    .nos__pot{
+        display: flex;
+        justify-content:center;
+        margin-top: 25px;
+        font-size: 45px;
+    }
+
+    .h2__pot{
+        display: flex;
+        justify-content: center;
+        margin-left: 125px;
+    }
+
+    .img__pot{
+        display: flex;
+        justify-content: center;
+        margin-left: 52px;
+    }
+
+    .p__pot{
+        display: block;
+        width:300px;
+        margin-right: 800px;
+        margin-left: 127px;
+        margin-top: 25px ;
+    }
 }
